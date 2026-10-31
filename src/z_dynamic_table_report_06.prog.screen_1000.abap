@@ -1,0 +1,6 @@
+PROCESS BEFORE OUTPUT.
+  MODULE status_1000.
+
+PROCESS AFTER INPUT.
+  FIELD : p_tab MODULE check_input.
+  MODULE user_command_1000.
